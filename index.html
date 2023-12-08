@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Donation</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+		
+	</head>
+	<body>
+        
+        
+
+    	<form> 
+    	
+        <center>
+            
+    	<p> 
+        		
+    	<h1> Donation for our charity</h1>
+            If you're wondering how you can help these endangered Arctic animals, we have provided a donations page for those who wish to make a difference.<br>
+            All funds donated go straight to The Animal Preservation Society.<br><br>
+    	
+    	<form action="/action_page.php">
+    	
+    	<label> First name:*</label><br>
+    	<input type="text" placeholder=" Enter your card number " required
+    	minlength="3" maxlength="25" pattern="[A-Za-z ]*" size="25"> <br>
+    	<br>
+    	<label> Surname:*</label><br>
+    	<input type="text" placeholder=" Enter your card number " required
+    	minlength="3" maxlength="25" pattern="[A-Za-z ]*" size="25"> <br>
+    	 
+          
+         
+    	 
+    	<h3> Personal details </h3>
+    	
+    	<label> Card number:*</label><br>
+    	<input type="number" placeholder=" Enter your card number " required
+    	minlength="3" maxlength="25"> <br>
+    	
+    	<label> Date of expiry:*</label><br>
+    	<input type="number" placeholder=" Enter date of expiry " required
+    	minlength="3" maxlength="25" size="25"> <br>
+    	
+        <label for="CVV">CVV:</label><br>
+        <input type="number" id="CVV" name="CVV" maxlength="3" size="3" pattern="[0-9]{3,4}" required><BR>
+    	
+    	
+    	<label> Email address:*</label><br>
+        
+        <!--This checks if the inputed text resembles an email -->
+        <input type="email" id="email" name="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required size="30"><br>
+    	
+    	<label> Phone number:*</label><br>
+    	<input type="number" placeholder=" Enter your phone number " required
+    	minlength="5" maxlength="20" size="20">
+    	
+    	<h3> Newsletter </h3>
+    	<label> Do you want to sign-up to our newsletter? </label>
+    	<input type="checkbox">
+    	<h4>
+    	<label> Donation amount </label>
+    	</h4>
+    	
+    	<br>
+    	<label> Amount</label>
+    	<select multiple>
+    
+    	<option> €5   </option>
+    	<option> €10  </option>
+    	<option> €20  </option>
+    	<option> €50  </option>
+        
+    	
+    	<label> Enter other amount:*</label><br>
+    	<input type="number" placeholder=" other "
+    	minlength="1" maxlength="25" size="25"> <br>
+    	
+    	</select>
+    	
+    	
+    	<br><br>
+    	
+    	<input type="submit" value="Submit">
+    	<input type="submit" value= "Reset Details">
+    	
+    	</p>
+    		
+        </center>
+    
+    	</form>
+        
+	</body>
+	
+</html>
